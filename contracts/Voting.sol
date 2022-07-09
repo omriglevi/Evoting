@@ -2,7 +2,7 @@
 pragma solidity >=0.4.22 <0.9.0;
 
 contract Voting {
-   uint public constant MAX_VOTES_PER_VOTER = 3;
+   uint public constant MAX_VOTES_PER_VOTER = 1;
   struct Candidate {
     uint id;
     string fname;
